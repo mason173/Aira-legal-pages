@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Airatab Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f8fb;
+      --surface: #ffffff;
+      --text: #111318;
+      --muted: #5f6875;
+      --accent: #0a59f7;
+      --border: #e3e8ef;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.72;
+    }
+
+    main {
+      width: min(900px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 40px 0 56px;
+    }
+
+    article {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 32px;
+      box-shadow: 0 12px 36px rgba(17, 19, 24, 0.06);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 5vw, 40px);
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 32px 0 10px;
+      font-size: 20px;
+      line-height: 1.35;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    ul {
+      margin: 10px 0 0;
+      padding-left: 22px;
+    }
+
+    li {
+      margin: 6px 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .notice {
+      margin-top: 18px;
+      padding: 14px 16px;
+      border-left: 4px solid var(--accent);
+      background: #eef4ff;
+      border-radius: 12px;
+      color: #23324a;
+    }
+
+    @media (max-width: 640px) {
+      article {
+        padding: 24px 18px;
+        border-radius: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>Airatab Privacy Policy</h1>
+      <p class="meta">Effective date: June 5, 2026</p>
+      <p class="meta">Applies to: Airatab Chrome extension</p>
+
+      <p class="notice">
+        Airatab is a customizable new tab extension. It is designed to be local-first. We do not sell user data, do not use user data for advertising, and do not operate a developer-controlled cloud sync service for Airatab bookmark data.
+      </p>
+
+      <h2>1. Information Airatab handles</h2>
+      <p>Airatab may handle the following information only to provide user-facing extension features:</p>
+      <ul>
+        <li>Bookmarks: browser bookmarks and bookmark folders used for bookmark search, bookmark management, import/export, and optional WebDAV bookmark sync.</li>
+        <li>Browsing history: browser history entries used to show history suggestions in the new tab search experience.</li>
+        <li>Open tabs and windows: tab titles, URLs, favicons, active tab state, and window information used for tab search, current-tab shortcut creation, switching to existing tabs, and preventing duplicate new tabs.</li>
+        <li>Recently closed sessions: recently closed tab information used to help users reopen recent browsing sessions.</li>
+        <li>Search queries: text entered by the user in Airatab search, used to open search results and, when supported, to use the browser's default search provider.</li>
+        <li>Local preferences and content: shortcuts, folders, wallpaper settings, layout settings, search preferences, local search history, and other extension settings saved on the user's device.</li>
+        <li>WebDAV configuration: the WebDAV URL, username, and password that the user enters, stored locally so Airatab can connect to the user-selected WebDAV server.</li>
+      </ul>
+
+      <h2>2. How Airatab uses this information</h2>
+      <p>Airatab uses the information above to provide and improve the extension's single purpose: a customizable new tab workspace with shortcuts, search, bookmarks, appearance settings, and optional bookmark sync.</p>
+      <ul>
+        <li>Bookmarks are used to display, search, edit, import/export, and synchronize bookmarks when the user enables WebDAV sync.</li>
+        <li>History and recently closed sessions are used to show relevant search suggestions in the new tab page.</li>
+        <li>Tabs and windows are used to search open tabs, focus existing tabs, create shortcuts from the current tab, and avoid opening duplicate tabs.</li>
+        <li>Search queries are used to navigate to URLs, submit searches, and show search suggestions.</li>
+        <li>Preferences and shortcuts are used to restore the user's new tab layout and settings.</li>
+      </ul>
+
+      <h2>3. Local storage</h2>
+      <p>
+        Most Airatab data is stored locally in the browser or on the user's device. This includes shortcuts, layout settings, wallpaper settings, local search history, search preferences, WebDAV configuration, and WebDAV sync baseline data.
+      </p>
+
+      <h2>4. WebDAV sync</h2>
+      <p>
+        WebDAV bookmark sync is optional. If the user configures and enables WebDAV sync, Airatab connects to the WebDAV server selected by the user and uploads/downloads bookmark sync data to that server. The WebDAV server may be operated by the user or by a third-party provider chosen by the user.
+      </p>
+      <p>
+        Airatab does not send WebDAV bookmark sync data to a developer-controlled Airatab server. Users should review the privacy and security practices of their chosen WebDAV provider.
+      </p>
+
+      <h2>5. Third-party services</h2>
+      <p>Airatab may communicate with third-party services only for features requested by the user or needed by the selected feature:</p>
+      <ul>
+        <li>User-configured WebDAV servers receive bookmark sync data and WebDAV credentials as needed to perform synchronization.</li>
+        <li>Search engines or suggestion providers may receive the search query text when the user performs a search or when remote search suggestions are used.</li>
+        <li>External image or wallpaper sources may be requested when the user uses wallpaper-related features.</li>
+      </ul>
+      <p>
+        Airatab does not sell personal information and does not share user data with third parties for advertising or profiling.
+      </p>
+
+      <h2>6. Chrome extension permissions</h2>
+      <p>Airatab requests only the permissions needed for its user-facing features:</p>
+      <ul>
+        <li><strong>bookmarks</strong>: display, search, manage, import/export, and sync browser bookmarks.</li>
+        <li><strong>history</strong>: show browser history suggestions in the new tab search experience.</li>
+        <li><strong>sessions</strong>: show recently closed tabs so users can reopen them.</li>
+        <li><strong>tabs</strong>: search open tabs, identify the current tab for shortcut creation, switch to existing tabs, and prevent duplicate new tabs.</li>
+        <li><strong>search</strong>: submit searches through the browser's default search provider when selected by the user.</li>
+        <li><strong>permissions</strong>: check and request optional permissions or host access only when a related feature needs it.</li>
+        <li><strong>host permissions</strong>: connect to user-configured WebDAV servers and external resources needed by selected features.</li>
+      </ul>
+
+      <h2>7. Data retention and deletion</h2>
+      <p>
+        Locally stored extension data remains on the user's device until the user changes settings, clears browser extension data, or uninstalls the extension. WebDAV sync data remains on the user's selected WebDAV server according to that server's settings and the user's actions.
+      </p>
+
+      <h2>8. Limited Use statement</h2>
+      <p>
+        Airatab's use of information received from Chrome APIs will adhere to the Chrome Web Store User Data Policy, including the Limited Use requirements. Airatab uses Chrome API data only to provide or improve the extension's user-facing features, does not transfer the data for advertising, and does not allow humans to read the data except where necessary for security, legal compliance, or user-requested support.
+      </p>
+
+      <h2>9. Changes to this policy</h2>
+      <p>
+        We may update this policy when Airatab's features, permissions, or data practices change. The updated policy will be posted on this page with a new effective date.
+      </p>
+
+      <h2>10. Contact</h2>
+      <p>
+        For privacy questions, please contact us through
+        <a href="https://github.com/mason173/airatab/issues" rel="noopener noreferrer">Airatab GitHub Issues</a>.
+      </p>
+    </article>
+  </main>
+</body>
+</html>
